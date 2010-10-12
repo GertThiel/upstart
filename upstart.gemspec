@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{upstart}
-  s.version = "0.0.4"
+  s.version = "0.0.4.1"
   s.authors = ["Gert Thiel"]
   s.date = %q{2010-10-12}
   s.description = s.summary = %q{Capistrano Recipies for Upstart}
@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
 
   s.files = [
     "lib/up_start.rb",
+    "lib/upstart.rb",
     "MIT-LICENSE",
     "README.md"
   ]
